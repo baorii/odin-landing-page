@@ -1,0 +1,66 @@
+.top {
+    background-color: #1F2937;
+}
+
+.header h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+.main h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.top p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.plans h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.plans p {
+    font-size: 18px;
+    color: #5B5C5E;
+}
+
+.plans img {
+    border: 4px;
+    border-color: #3882F6;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote #qText {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937
+}
+
+.quote #author {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+#joinBox {
+    background-color: #3882F6;
+}
