@@ -70,6 +70,10 @@ ul {
     list-style-type: none;
 }
 
+body {
+    margin: 0px; /*Makes boxes reach edges of page*/
+}
+
 /*Flexbox*/
 .top {
     display:flex;
@@ -81,4 +85,14 @@ ul {
 .links{
     display:flex;
     gap: 20px;
+}
+
+.main {
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+
+#firstImg {
+    width: 400px;
+    height: 200px;
 }
