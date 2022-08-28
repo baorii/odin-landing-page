@@ -91,6 +91,7 @@ body {
 
 .main {
     justify-content: space-around;
+    align-items: center;
     background-color: blue;
 }
 
@@ -99,10 +100,14 @@ body {
     height: 250px;
 }
 .main div {
-    padding-bottom: 100px;
+    flex: 3;
+}
+
+.main .box1 {
+    width: 500px;
+    height: 250px;
 }
 
 .main .box2 {
-    flex: 1 1 50%;
     align-self: flex-end;
 }
