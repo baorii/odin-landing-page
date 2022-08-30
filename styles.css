@@ -143,13 +143,43 @@ body {
 
 .quote div {
     width: 40%;
-    margin-left: 20%; ;
+    margin-left: 20%;
     margin-right: 20%;
     margin-top: 60px;
+    margin-bottom: 0px;
+    padding: 0px;
 }
 
 #author {
     align-self:flex-end;
     margin-right: 20%;
     margin-top: 0px;
+    padding: 0px;
+}
+
+.conversions {
+    margin: 5rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#joinBox {
+    padding: 5rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#joinBox p {
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 5%;
+
+}
+
+#head {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
 }
