@@ -44,6 +44,8 @@ a {
 button {
     background-color: #3882F6;
     color: #F9FAF8;
+    font-size: 18px;
+    border-radius:8px;
 }
 
 .quote {
@@ -74,7 +76,7 @@ body {
     margin: 0px; /*Makes boxes reach edges of page*/
 }
 
-/*Flexbox*/
+/*Flexbox and Styling*/
 .top {
     display:flex;
     
@@ -95,6 +97,11 @@ body {
     align-items: center;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.main h2 {
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 #firstImg {
@@ -192,8 +199,6 @@ body {
 }
 
 #joinBox button {
-    font-size: 18px;
-    border-radius:8px;
     border-color: #E5E7EB;
     border-style: solid;
     margin-right: 5%;
