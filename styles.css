@@ -80,8 +80,9 @@ body {
     
 }
 .header{
-    justify-content:space-around;
+    justify-content:center;
     align-items: center;
+    gap: 64%; /*This makes the items in the header alligned with main body and call to action box*/
 }
 
 .links{
@@ -90,8 +91,10 @@ body {
 }
 
 .main {
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #firstImg {
@@ -99,21 +102,24 @@ body {
     height: 250px;
 }
 
-
 .main div {
     width: 500px;
     height: 250px;
-    padding: 50px;
+    margin-left: 0px; /*To make boxes reach the edges for proper allignment*/
+    margin-right: 0px;
 }
 
+.main .box1 {
+    margin-left: 10%; /*Aligns with the call to action box*/
+}
 .main .box2 {
-    align-self: flex-end;
+    margin-right: 10%;
     
 }
 .plans {
     display: flex;
     justify-content: space-between;
-    margin-left: 20%;
+    margin-left: 20%; /*Places routines closer to center than main body and call to action*/
     margin-right: 20%;
 }
 
@@ -142,7 +148,7 @@ body {
 }
 
 .quote div {
-    width: 40%;
+    width: 60%; /*Aligns quote with the routine boxes above*/
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 60px;
