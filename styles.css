@@ -198,3 +198,8 @@ body {
 #joinBox div {
     width: 70%;
 }
+
+.footer {
+    padding: 10px;
+    justify-content: center;
+}
